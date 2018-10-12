@@ -42,6 +42,13 @@ class ProfessorsController extends Controller
      */
     public function store(Request $request)
     {
+
+        $this->validate($request,[
+            'name'=>'required',
+            'lastname'=>'required',
+
+        ]);
+
         
         Professor::create($request->all());
 

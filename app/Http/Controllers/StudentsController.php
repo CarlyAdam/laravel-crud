@@ -51,6 +51,11 @@ class StudentsController extends Controller
      */
     public function store(Request $request)
     {
+         $this->validate($request,[
+            'name'=>'required',
+            'lastname'=>'required',
+
+        ]);
         
         Student::create($request->all());
 
