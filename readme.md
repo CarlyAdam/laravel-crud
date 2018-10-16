@@ -11,5 +11,9 @@ Laravel 5 One to Many CRUD
 5-Run command "php artisan serve"
 ```
 
+## Built with
+
+*- [Laravel](https://github.com/laravel/laravel) - [Licence](https://opensource.org/licenses/MIT) 
+
 Enjoy it ;)
 
